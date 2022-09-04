@@ -8,7 +8,7 @@ public class B5 {
 
 	public static void main(String[] args) {
 		
-		for (int karakter=0; karakter<=10; karakter++) {
+		for (int karakter=0; karakter<=10; ) {
 
 			int poeng = parseInt (showInputDialog("Poeng:") );
 		
