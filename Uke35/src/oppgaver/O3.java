@@ -2,20 +2,23 @@ package oppgaver;
 
 import static java.lang.Integer.parseInt;
 import static javax.swing.JOptionPane.*;
-import static java.lang.Math.*;
 
 public class O3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int n = parseInt (showInputDialog("Gi verdi n:") );
 		
 		if (n > 0) {
 			
+			int svar = 1;
 			
+			for (int i = 1; i <= n; i++) {
+				svar = svar*i;
+				
+			}
 			
-			showMessageDialog(null, "Verdi: " + n);
+			showMessageDialog(null, "Verdi: " + svar);
 			
 		}
 			
